@@ -1,0 +1,27 @@
+Tensor Flow - MNISt - Beginners
+
+http://colah.github.io/posts/2014-10-Visualizing-MNIST/
+
+http://neuralnetworksanddeeplearning.com/chap3.html#softmax
+
+http://www.deeplearningbook.org/
+
+http://cognitivemedium.com/
+
+http://colah.github.io/posts/2015-09-Visual-Information/
+
+http://colah.github.io/posts/2015-08-Backprop/
+
+https://en.wikipedia.org/wiki/Gradient_descent
+
+https://en.wikipedia.org/wiki/Rectifier_(neural_networks)
+
+In the context of artificial neural networks, the rectifier is an activation function defined as:
+
+f ( x ) = max ( 0 , x ) {\displaystyle f(x)=\max(0,x)} f(x)=\max(0,x),
+
+where x is the input to a neuron. This is also known as a ramp function and is analogous to half-wave rectification in electrical engineering. This activation function was first introduced to a dynamical network by Hahnloser et al. in a 2000 paper in Nature[1] with strong biological motivations and mathematical justifications.[2] It has been used in convolutional networks[3] more effectively than the widely used logistic sigmoid (which is inspired by probability theory; see logistic regression) and its more practical[4] counterpart, the hyperbolic tangent. The rectifier is, as of 2015, the most popular activation function for deep neural networks.[5]
+
+A unit employing the rectifier is also called a rectified linear unit (ReLU).[6]
+
+

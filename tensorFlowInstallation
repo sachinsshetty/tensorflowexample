@@ -6,19 +6,39 @@ https://www.tensorflow.org/get_started/get_started
 https://www.tensorflow.org/install/install_linux
 
 
-
-sudo apt-get install python-pip python-dev python-virtualenv 
-
-mkdir tensorflow
-
-virtualenv --system-site-packages tensorflow
-
-source ~/tensorflow/bin/activate
+Using Anaconda
 
 
+Download anaconda from https://www.continuum.io/downloads
 
-pip3 install --upgrade tensorflow
-pip3 install --upgrade tensorflow-gpu   #with GPU
+bash Anaconda3-4.4.0-Linux-x86_64.sh  // Downloaded fileName
+
+Add this in .bashrc file
+export PATH=~/anaconda3/bin:$PATH
+
+conda create -n tensorflow
+
+pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.2.1-cp36-cp36m-linux_x86_64.whl
+
+
+
+https://www.tensorflow.org/install/install_linux#InstallingAnaconda
+
+
+Using PIP
+
+          sudo apt-get install python-pip python-dev python-virtualenv 
+
+          mkdir tensorflow
+
+          virtualenv --system-site-packages tensorflow
+
+          source ~/tensorflow/bin/activate
+
+
+
+          pip3 install --upgrade tensorflow
+          pip3 install --upgrade tensorflow-gpu   #with GPU
 
 python ->
 >>> import tensorflow as tf
